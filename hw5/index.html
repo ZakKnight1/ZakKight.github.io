@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MIS3033 HW 5</title>
+
+    <style>
+
+        #main {
+            width: 1000px;
+            background-color: lightblue;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #header {
+            background-color: antiquewhite;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: right;
+        }
+
+        #body {
+            background-color: aliceblue;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+        }
+
+        #footer {
+            background-color: #073c76;
+            width:1000px;
+            height: 50px;
+            color: white;
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        #head1 {
+            width: 40px;
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #btn {
+            margin-right: 5px;
+        }
+
+        #body1 {
+            width: 300px;
+            height: 300px;
+        }
+
+        #body2 {
+            width: 400px;
+            height: 300px;
+            
+        }
+
+        #body3 {
+            background-color: palevioletred;
+            width: 300px;
+            height: 300px;
+        }
+
+        #book {
+            width: 200px;
+        }
+    </style>
+
+
+</head>
+
+
+<body>
+
+    <div id="main">
+        <div id="header">
+            Hi, Zak Knight,
+            <img id="head1" src="img/head1.png" />
+            <input id="btn" type="button" value="Logout" />
+        </div>
+
+        <div id="body">
+            <div id="body1">
+                <img id="book" src="img/book.jpg" /> <br />
+                <span style="font-weight:bold;">C# 10 and .NET6</span>
+            </div>
+            <div id="body2">
+                <span style="margin-top: 5px; font-weight: bold">$44.99</span> <br/>
+                <label>Qty:</label>
+                <input type="text"/><br/>
+                <input type="button" value="Add"/>
+            </div>
+            <dv id="body3">
+                <span style="font-weight:bold;">Total: $89.98</span>
+            </div>
+        </div>
+
+        <div id="footer">
+            Developed by Zak Knight for MIS3033 Homework 5
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
